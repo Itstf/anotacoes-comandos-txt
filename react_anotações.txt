@@ -6,7 +6,12 @@ arquivo.jsx:
 - ou apenas <> </>
 
 state = {
-- armazena as variaveis dentro
+- armazena as variaveis dentro de forma privada
+}
+
+= () => {
+- uma arrow function
+-
 }
 
 =-=-=-=-=-=-=
