@@ -11,15 +11,15 @@ state = {
 
 = () => {
 - uma arrow function
--
+- diminui trabalho de criar o construtor, criar super
 }
 
 =-=-=-=-=-=-=
 SPA => Single Page Application
-Aplicação de pagina unica > Só um html
-JavaScript é responsável por fazer isso
+- Aplicação de pagina unica > Só um html
+- JavaScript é responsável por fazer isso
 
-caminho na url => rota or routes
+caminho na url => rota
 =-=-=-=-=-=-=
 
 ui/ux
@@ -33,17 +33,3 @@ ondestroy - usado quando sai da pagina
 baixa extremidade - só figuras web
 
 twillo - api cadastro para ver se o nºcelular é válido
-
-
-
-
-
-
-
-O que foi feito:
-- aumentar e diminuir numero do contador ao clicar em botoes.
-- mudar cor do numero ao chegar em 0 e se for maior que o zero.
-- limitar para o numero não ser menor que 0.
-- arquivo .jsx (junta javaScript com html).
-- função para mapear e retornar os alunos dentro da tag li.
-- função para retornar um nome da lista de alunos randomicamente.
