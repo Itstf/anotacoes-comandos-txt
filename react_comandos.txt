@@ -1,0 +1,12 @@
+	-- instalando pacote para poder criar o react (cmd) --
+	npm i -g create-react-app
+
+-- na pasta --
+npx create-react-app nomedesejado
+
+	--- para abrir vscode direto com a pasta desejada ---
+	- no prompt dentro da pasta
+	code .
+
+-- inicializar site --
+npm start

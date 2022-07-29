@@ -1,0 +1,21 @@
+py -m venv env 	->	//-m de criar
+cd .\env\Scripts\
+.\Activate.ps1
+
+------------------------------
+//POWERSHELL
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+-------------------------------
+
+cd .. 	->	//até a pasta mãe
+pip install django
+django-admin startproject nomepasta 
+py .\manage.py runserver ->	//inicia o servidor
+py .\manage.py startapp home ->	//criar app com nome home
+
+
+//models
+py .\manage.py makemigrations 	->	//para mapear
+py .\manage.py migrate 	->	//armazenar no banco
+
+py .\manage.py createsuperuser 	->	//cria usuario no admin
