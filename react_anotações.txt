@@ -14,6 +14,11 @@ state = {
 - diminui trabalho de criar o construtor, criar super
 }
 
+props
+- uma propriedade que a gente pode passar para o componente
+
+className
+- porque é uma palavra reservada
 =-=-=-=-=-=-=
 SPA => Single Page Application
 - Aplicação de pagina unica > Só um html
@@ -33,3 +38,4 @@ ondestroy - usado quando sai da pagina
 baixa extremidade - só figuras web
 
 twillo - api cadastro para ver se o nºcelular é válido
+
