@@ -19,3 +19,13 @@ py .\manage.py makemigrations 	->	//para mapear
 py .\manage.py migrate 	->	//armazenar no banco
 
 py .\manage.py createsuperuser 	->	//cria usuario no admin
+
+
+=-=-=-=-=-=-=
+//Entrar dps com projeto ja criado:
+pip install django
+cd .\env\Scripts\
+.\Activate.ps1
+cd ..
+cd ..
+py .\manage.py runserver
