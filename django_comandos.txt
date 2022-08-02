@@ -1,3 +1,4 @@
+//criar env e ativar ela:
 py -m venv env 	->	//-m de criar
 cd .\env\Scripts\
 .\Activate.ps1
