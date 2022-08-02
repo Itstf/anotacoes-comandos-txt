@@ -25,6 +25,7 @@ py .\manage.py createsuperuser 	->	//cria usuario no admin
 =-=-=-=-=-=-=
 //Entrar dps com projeto ja criado:
 pip install django
+pip install stdimage
 cd .\env\Scripts\
 .\Activate.ps1
 cd ..
