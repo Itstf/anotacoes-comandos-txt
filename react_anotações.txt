@@ -29,7 +29,7 @@ caminho na url => rota
 
 ui/ux
 ui - interface do usuario -> User Interface
-ux - experiencia usando a interface
+ux - experiencia usando a interface -> User Xperience
 
 =-=-=-=-=-=-=
 
