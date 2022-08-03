@@ -28,7 +28,7 @@ caminho na url => rota
 =-=-=-=-=-=-=
 
 ui/ux
-ui - interface
+ui - interface do usuario -> User Interface
 ux - experiencia usando a interface
 
 =-=-=-=-=-=-=
