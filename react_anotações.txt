@@ -35,7 +35,7 @@ ux - experiencia usando a interface -> User Xperience
 
 ondestroy - usado quando sai da pagina
 
-baixa extremidade - só figuras web
+baixa fidelidade - só figuras web, formato doq voc vai disponibilizar para o publico-alvo
 
 twillo - api cadastro para ver se o nºcelular é válido
 
