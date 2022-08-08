@@ -6,10 +6,22 @@ Niveis de abstração:
 
 mer --> conceito, modelo. -> como fazer entidade, como fazer relacionamento. 
 "Modelo Entidade Relacionamento"
+- entidade = é algo, objeto, alguma coisa.
 
 der --> como fazer o diagrama.
-3 tipos de diagrama:
+"Diagrama Entidade Relacionamento"
+- cardionalidade = 0:1 , 1:1, 1:n, n:n, 0:n.
 
+3 tipos de diagrama, der:
+conceitual,
+- primeiro diagrama que eu faço.
+- tem atributo, entidade, relacionamento.
+lógico,
+- tem mais cara de tabela.
+físico
+- migrando para o código, sql.
+- diagrama com mais definição. 
+- não colocamos index.
 
 =-=-==-=-=-=
 
