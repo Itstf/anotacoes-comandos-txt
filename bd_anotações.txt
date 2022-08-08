@@ -1,0 +1,28 @@
+Niveis de abstração:
+- Conceitual
+- Lógico 
+- Físico
+
+
+mer --> conceito, modelo. -> como fazer entidade, como fazer relacionamento. 
+"Modelo Entidade Relacionamento"
+
+der --> como fazer o diagrama.
+3 tipos de diagrama:
+
+
+=-=-==-=-=-=
+
+varchar(50) - salva só os caracteres do nome > (Thaiza = 6)
+char(50) - salva as 50 posições, independente > (Thaiza = 50)
+
+password MySQL:
+thaiza
+
+=-=-=-=--=-=-=
+
+int auto_incremente -> cresce de um em um
+not null -> obrigatório
+use nome_banco -> selecionar qual tabela ir o codigo
+
+=-=-=-=--=-=-=
