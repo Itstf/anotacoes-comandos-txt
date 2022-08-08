@@ -4,9 +4,17 @@ Niveis de abstração:
 - Físico
 
 
+- entidade = é algo, objeto, alguma coisa. Algo do mundo real, abstrato ou físico que é levado para o mundo virtual.
+- relacionamento = quando se relaciona uma entidade com a outra. EM RELACIONAMENTO TEM CARDIONALIDADE, q é uma regra.
+- chave estrangeira quando é 1:n -> doa o atributo pra outra.
+- n:n o relacionamento vira uma entidade (entidade fraca).
+- chave primaria = como se fosse um id, algo que tem q ser unico, ligado a um campo.
+- regra do 1:1 -> as entidade trocam chaves primarias.
+
+
+
 mer --> conceito, modelo. -> como fazer entidade, como fazer relacionamento. 
 "Modelo Entidade Relacionamento"
-- entidade = é algo, objeto, alguma coisa.
 
 der --> como fazer o diagrama.
 "Diagrama Entidade Relacionamento"
