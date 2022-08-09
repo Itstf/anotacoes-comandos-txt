@@ -1,0 +1,16 @@
+pip freeze > requirements.txt
+
+pip install gunicorn whitenoise djangorestframework
+
+- trabalhar com framework de style
+pip install django-bootstrap-v5 pillow
+
+
+'home',
+'rest_framework',
+'bootstrap5',
+
+
+
+
+
