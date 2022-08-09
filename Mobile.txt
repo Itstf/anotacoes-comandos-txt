@@ -1,0 +1,42 @@
+mobile - dispositivo movel
+
+suift - desenvolver IOS
+
+nativo -> linguagem mais proxima sistema operacional
+hibrido -> linguagem que consegue se ligar com as duas plataformas, ios e android
+
+
+=-=-=-=-=-=-=-=-=-=
+nativos --> usar quando for necessario = segurança, performace, facilidade do uso dos recursos.
+comunica direto com o recurso do sistema operacional
+*vantagem
+- alta performace
+*desvantagem
+- ele tem curva de aprendizado alto, custo maior de treinamento
+-custo alto para desenvolver nele pq precisa de duas linguagens e duas equipes de desenvolvimento (ios, android)
+
+
+web application/progressive web app:
+-->usar quando ocupar espaço no dispositivo do usuario for um problema.
+rodam no browser, conteiner.
+pwa -> site que se comporta como aplicativo, qnd for aberto no smartphone.
+*vantagem
+- curva de aprendizado pequena e nao tem cursto muito alto de movimento
+*desvantagem
+- não tem segurança, e sem acesso aos recursos
+
+
+hibridos:
+--> usar quando for necessario ganhar velocidade no desenvolvimento e diminuir o custo.
+programa uma vez para criar aplicativo para todas as plataformas possiveis.
+*vantagem
+- curva de aprendizado pequena
+- tem custo de desenvolvimento barato pq precisa de uma equipe só
+- é leve
+*desvantagem
+- não é tão seguro quanto o nativo
+- sem tanta facilidade dos recursos do dispositivo
+
+
+
+
