@@ -1,0 +1,49 @@
+npm 
+node package manage -> gerenciador de dependencias do node. Instala plugins, bibliotecas e framworks necessarios ao projeto.
+
+npm init or npm init -y 
+gera > (package json) -> descrição do projeto com informações básicas, dependencias e devDependencias
+
+=-=-=-=
+
+semVer -> relacionado a regras na mudanças de versões:
+
+Patch
+- correção de bug, ou melhoria de performance, sem adicionar novas funcionalidades
+- corrigir falhar mantendo compatibilidade
+
+Minor
+- adição de pequenas funcionalidades, mas nada realmente impactante como mudança do negócio ou dependências
+- adicionar funcionalidades mantendo compatibilidade
+
+Major
+- se realmente a mudança irá torna-lo incompatível com com a API atual
+- quando fizer mudanças incompatíveis na API
+
+
+react native
+- bibliotecas de javascript para mobile
+=-=-=-=
+dependencia > dependences
+- do projeto
+-> software deterceiros, no qual o código depende para funcionar corretamente (software de terceiros que nosso projeto depende)
+- Ex: Ronter, Redax, Axios, node_modulos, create-react-app, webpack, babel, bootstrap
+
+
+devDependences
+- do programador
+-> dependencias de software de terceiros que auxiliam o desenvolvedor. O projeto roda sem ele.
+- Ex: storyBook, eslint, typescript, 
+
+
+Gerenciador de dependencias
+-> software para gerenciar as dependencias dos projetos (software que gerencia os software de terceiros)
+- Windows > Chocolatey
+- Linux > Pax Man Apt
+- MacOS > honey
+
+
+
+
+
+
