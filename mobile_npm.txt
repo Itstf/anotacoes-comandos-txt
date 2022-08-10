@@ -3,12 +3,23 @@ node package manage -> gerenciador de dependencias do node. Instala plugins, bib
 
 npm init or npm init -y 
 gera > (package json) -> descrição do projeto com informações básicas, dependencias e devDependencias
+package json > (arquivo de config do projeto)
 
 principais comandos
 - install, update, version, config, (basicos)
 
 arquivo package.json
-arquivo de configuração do projeto do node
+- arquivo de configuração do projeto do node
+
+como declarar, iniciar o package.json
+- npm init
+  - (responde restionario)
+- se não quiser responder questionario use, npm init -y
+
+como colocar dependencias no package.json:
+dependeces: {
+"colocarDependencia" : "versaoParaBaixar"
+}
 
 =-=-=-=
 
