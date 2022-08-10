@@ -1,3 +1,15 @@
+dispositiveis móveis
+- possibilidade de locomoção
+- autonomia de energia
+- recurso de conectividade (acessar rede)
+- compartilhamento
+
+plataformas
+- ios > ObjectiveC,  Swift -> linguagem nativa
+- android > java, kotlin -> linguagem nativa
+
+
+
 mobile - dispositivo movel
 
 suift - desenvolver IOS
@@ -11,12 +23,14 @@ nativos --> usar quando for necessario = segurança, performace, facilidade do u
 comunica direto com o recurso do sistema operacional
 *vantagem
 - alta performace
+- mais facil de monetizar
 *desvantagem
 - ele tem curva de aprendizado alto, custo maior de treinamento
--custo alto para desenvolver nele pq precisa de duas linguagens e duas equipes de desenvolvimento (ios, android)
+- custo alto para desenvolver nele pq precisa de duas linguagens e duas equipes de desenvolvimento (ios, android)
+- ocupa mais espaço no smartphone
 
 
-web application/progressive web app:
+web application/progressive web aplication > pwa:
 -->usar quando ocupar espaço no dispositivo do usuario for um problema.
 rodam no browser, conteiner.
 pwa -> site que se comporta como aplicativo, qnd for aberto no smartphone.
@@ -28,7 +42,8 @@ pwa -> site que se comporta como aplicativo, qnd for aberto no smartphone.
 
 hibridos:
 --> usar quando for necessario ganhar velocidade no desenvolvimento e diminuir o custo.
-programa uma vez para criar aplicativo para todas as plataformas possiveis.
+programa cria aplicativo para todas as plataformas possiveis. multiplataforma.
+uiliza um unico código
 *vantagem
 - curva de aprendizado pequena
 - tem custo de desenvolvimento barato pq precisa de uma equipe só
@@ -38,5 +53,6 @@ programa uma vez para criar aplicativo para todas as plataformas possiveis.
 - sem tanta facilidade dos recursos do dispositivo
 
 
-
+adk
+android develop k?
 
