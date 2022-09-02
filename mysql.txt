@@ -1,0 +1,61 @@
+use aula6;
+
+select * from tb_tabela -> mostrar tabela toda
+select * from tb_tabela where preco > 300 -> achar produtos que  o preco na tabela é maior que 300
+select count(*) from tb_tabela where preco > 300 -> pegar o total de precos maior que 300
+select * from tb_tabela order by id desc -> mostrar tabela toda do maior para o menor
+select * from tb_tabela order by id asc -> mostrar tabela toda do menor para o maior
+select sum(preco), from tb_tabela where marca = 'Canon' -> Somar o preço de todos os registros da Canon que está na tabela
+select max(preco), min(preco) from tb_tabela -> pegar o maior preço e menor preço
+
+select * from tb_tabela (where preco = 
+	(select max(preco) from tb_tabela)
+	or preco =
+	(select min(preco) from tb_tabela)
+	) and marca not like 'Canon'
+
+select count from tb_tabela group by marca -> pega todas as marcas
+
+select *, sum(preco), sum(quantidade)
+	from tb_tabela group by marca; -> pega todas as marcas e mostra o total de preco e qntd
+
+
+insert into ambulatorios values(6, 3, 15) -> adicionando valores de um ambulatório
+
+insert into medicos
+	values(6, 'Bi', 79, 'cardiologista', '1111111', 'São Paulo', 5) -> adicionando valores de um medico
+
+
+UPDATE medicos
+SET especialidade = 'ortopedia' -> todos os médicos viram ortopedistas
+
+UPDATE medicos
+SET especialidade = 'ortopedia'
+WHERE cod_m = 1;
+
+
+
+
+
+
+
+exercicios:
+select salario from tb_tabela;
+
+select max(salario), min(salario) from funcionario -> exibir maior e menor salario dos funcionarios
+
+select * from funcionarios 
+where salario = (select 
+max(salario) from funcionarios) 
+or salario = (select min(salario) 
+from funcionarios) 
+-> exibir maior e menor salario dos funcionarios junto com os nomes
+
+select AVG(DISTINCT idade) from medicos; -> consulta que mostra a idade média dos médicos (avg -> valor médio)
+select round (AVG(idade)) from medicos; -> consulta que mostra a idade média dos médicos (avg -> valor médio)
+
+select nome, (salario - salario * 0.2) from funcionarios; -> salario liquido subtraindo 20% do salario
+
+
+
+
