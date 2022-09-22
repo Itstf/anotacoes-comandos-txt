@@ -1,3 +1,13 @@
 npm install -g yarn
 npm install
 expo start
+-=-=--=-=-=
+- (site)www. React Navigation
+npm install react-navigation
+npm install react-native-screens
+npm install @react-navigation/native
+npx expo install react-native-safe-area-context
+npm install @react-navigation/native-stack
+
+npm install @react-navigation/stack
+npm install @react-navigation/bottom-tabs
